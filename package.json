@@ -1,0 +1,7 @@
+{
+"name":"blog",
+"description":"simple github blog",
+"dependencies":{
+	"jade":"~1.11"
+}
+}

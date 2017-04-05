@@ -1,0 +1,17 @@
+extends layout
+
+block localcss
+	link(href='../styles/style.css',rel='stylesheet',type='text/css')
+
+block content
+	div.msg.
+		Description to come
+	br
+	span#team
+		div.subheader(style="clear:both") Lecture Slides:
+			div.people
+				figure.wp
+					a(href='../data/OWTSPACE_1.pdf')
+						img(src='../data/O1-0.png' class='ppl')
+						p.img-caption
+							span.info Week 1

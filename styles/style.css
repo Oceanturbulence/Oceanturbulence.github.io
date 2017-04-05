@@ -1,0 +1,217 @@
+.content {
+				font-family: "Open Sans";
+				font-size: 1.2em;
+}
+
+.footer {
+	bottom: 0;
+	display: inline;
+	width: 100%;
+}
+
+
+#pure-g {
+				letter-spacing: 0 em;
+
+}
+
+#menu {
+	width: 100%;
+	height: 13%;
+	position: fixed;
+	background-color: rgba(200,200,200,0.2);
+	opacity: 0.8;
+	z-index: 1000;
+	margin-right: 45px;
+	border-bottom: 0.25 solid rgba(250,250,250,0.4);
+}
+
+.title {
+	letter-spacing: .3em;
+}
+
+.subtitle {
+	color: black;
+	letter-spacing: .3em;
+}
+
+	#menu ul {
+					list-style-type: none;
+					padding-top: 1.5%;
+	}
+	#menu li {
+					display: inline;
+					margin-left: auto;
+					float: right;
+	}
+	#menu li a {
+		letter-spacing: 0.1em;
+		text-decoration: none;
+		color: black;
+	}
+
+.menu-link {
+		padding: 0.5em 1em;
+		margin-left: .5em;
+		text-transform: uppercase;
+		border-radius: 0.5em;
+		font-size: 0.9em;
+		font-weight: 600;
+		border: .1em solid gray;
+}
+
+.menu-link:hover {
+		background-color: rgba(20,204,10,0.5);
+}
+#label {
+				float: left;
+				padding-left: 10%;
+				padding-top: 1em;
+				height: 10%;
+				width: 15%;
+	}
+#image-stretch {
+	background-size: 100%; 
+	width: 100%;
+	height: 100%;
+	 }
+
+.half-stretch {
+	display: block;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.content {
+	position: absolute;
+	width: 100%;
+	top: 15%;
+	letter-spacing: 0em;
+	color: RGBA(0,0,0,0.75);
+}
+
+.layout {
+	font-family: "Open-Sans" sans-serif;
+}
+
+	div.msg {
+				padding-top: 3%;
+				letter-spacing: 0em;
+				line-height: 1.5em;
+				text-align: left;
+				margin: auto;
+				width: 70%;
+}
+
+.subheader {
+	font-size: 1.4em;
+	color: #3799e1b3;
+	font-weight: bold;
+	margin: auto;
+	width: 70%;
+}
+
+ul.pub {
+	margin: auto;
+	width: 70%;
+} li {
+		margin-bottom: 0.5%;
+}
+
+ul.news {
+	margin: auto;
+	width: 70%;
+	text-decoration: none;
+} li {
+		margin-bottom: 0.5%;
+}
+
+
+span.media {
+	font-weight: bold;
+}
+
+span.author {
+	text-decoration: underline;
+}
+
+span.journal {
+	font-style: italic;
+}
+
+div.people {
+				clear: both;
+				width: 70%;
+				margin-left: auto;
+				margin-right: auto;
+}
+
+.principle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50vw;
+	max-width: 800px;
+}
+
+img.principle {
+	width: 96%;
+	margin: 2%;
+	height: auto;
+} 
+
+.wp {
+	position: relative;
+	width: 50%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+img.footer {
+				margin-top: 2.5%;
+				clear: both;
+				width:20%;
+				border: 1%	solid gray;
+				padding: 0;
+}
+
+img.ppl {
+	width: 96%;
+	margin: 2%;
+	height: auto;
+} img.ppl:hover {
+		opacity: 0.5;
+}
+
+.img-caption {
+	z-index: 100;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	margin: 0%;
+	padding-top: 0.5em;
+	top: 0;
+	left: 0;
+	height: 100%;
+	color: #000;
+	font-weight: bold;
+	background-color: rgba(250,250,250,0.65);
+	transition: opacity .3s ease-in-out;
+}
+
+span.info {
+	padding-left: 0.5em;
+}
+
+.img-caption:hover {
+	opacity: 1;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
