@@ -6,16 +6,17 @@ html
 		meta(content='width=device-width, initial-scale=1.0',name='viewport')
 		block localcss
 		link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet')
-		link(href='http://yui.yahooapis.com/pure/0.6.0/pure-min.css',rel='stylesheet',type='text/css')
-		link(href='http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css',rel='stylesheet',type='text/css')
+		link(href='/styles/pure-min.css',rel='stylesheet',type='text/css')
+		link(href='/styles/grids-min.css',rel='stylesheet',type='text/css')
 
 	body
 		div(id='layout',class='pure-g',)
 			div(id='menu')
-					span#label
-						span.title Ocean Turbulence
-						br
-						span.subtitle Patrice Klein
+					a(href='/' style='text-decoration:none')
+						span#label
+							span.title Ocean Turbulence
+							br
+							span.subtitle Patrice Klein
 					ul
 						li
 							a.menu-link(href='/static/turbulence.html') Ocean Turbulence from Space
