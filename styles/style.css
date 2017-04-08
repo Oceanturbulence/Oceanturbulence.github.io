@@ -221,14 +221,14 @@ span.info {
 
 @media (max-width: 55em){
 	#label {
-		padding-left: 0%;
+					visibility: collapse;
 		}
 	ul#menu-small{
 		padding-top: 0;
 	}
 	#menu li{
 		display: inline-block;
-		float: right ;
+		float: none;
 		clear: both;
 		margin-bottom: 1em;
 		margin-right: 0.5em;
