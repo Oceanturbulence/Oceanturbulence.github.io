@@ -1,7 +1,7 @@
 var jade = require('jade');
 var fs = require('fs');
 //
-__dirname = '/home/jw/Repos/klein/'
+__dirname = '/home/jwilhelmus/Repos/klein/'
 //
 
 var static = fs.readdirSync('../static').filter( function(f){return f.match(/jade/)} );
